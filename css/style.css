@@ -1,0 +1,10 @@
+.hidden {
+    display: none;
+}
+.narrow {
+    max-width: 45em;
+}
+.central {
+    display: flex;
+    justify-content: center;
+}
