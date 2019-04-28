@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<title>Sierra Alpine Guides</title>
+	<style>
+		.grid {
+			display: grid;
+			
+			grid-template-columns: repeat(12, 1fr);
+			grid-gap: .5rem 2%;
+		}
+
+		.fit-columns {
+			grid-template-columns: repeat(auto-fit, minmax(6.5%, 1fr));
+		}
+
+		.justify-self-start {
+			justify-self: start;
+		}
+		.justify-self-end {
+			justify-self: end;
+		}
+		.justify-self-center {
+			justify-self: center;
+		}
+
+		.align-self-start {
+			align-self: start;
+		}
+		.align-self-end {
+			align-self: end;
+		}
+		.align-self-center {
+			align-self: center;
+		}
+
+		.x2 {
+			grid-column-start: span 2;
+		}
+		.x3 {
+			grid-column-start: span 3;
+		}
+		.x4 {
+			grid-column-start: span 4;
+		}
+		.x5 {
+			grid-column-start: span 5;
+		}
+		.x6 {
+			grid-column-start: span 6;
+		}
+		.x7 {
+			grid-column-start: span 7;
+		}
+		.x8 {
+			grid-column-start: span 8;
+		}
+		.x9 {
+			grid-column-start: span 9;
+		}
+		.x10 {
+			grid-column-start: span 10;
+		}
+		.x11 {
+			grid-column-start: span 11;
+		}
+		.x12 {
+			grid-column-start: span 12;
+		}
+
+		.y2 {
+			grid-row-start: span 2;
+		}
+		.y3 {
+			grid-row-start: span 3;
+		}
+		.y4 {
+			grid-row-start: span 4;
+		}
+		.y5 {
+			grid-row-start: span 5;
+		}
+		.y6 {
+			grid-row-start: span 6;
+		}
+		.y7 {
+			grid-row-start: span 7;
+		}
+		.y8 {
+			grid-row-start: span 8;
+		}
+		.y9 {
+			grid-row-start: span 9;
+		}
+		.y10 {
+			grid-row-start: span 10;
+		}
+		.y11 {
+			grid-row-start: span 11;
+		}
+		.y12 {
+			grid-row-start: span 12;
+		}
+
+		@media(max-width: 60em) {
+
+			.grid, .fit-columns {
+				grid-template-columns: 1fr;
+			}
+
+			.spacer {
+				display: none;
+			}
+
+			.x2, .x3, .x4, .x5, .x6, .x7, .x8, .x9, .x10, .x11, .x12 {
+				grid-column-start: span 1;
+			}
+
+			.y2, .y3, .y4, .y5, .y6, .y7, .y8, .y9, .y10, .y11, .y12 {
+				grid-row-start: span 1;
+			}
+
+		}
+	</style>
+  </head>
+  <body>
+		<nav class="navbar bg-white sticky-top">
+			<div class="container">
+				<div class="navbar-brand">Seirra Alpine Guides</div>
+		
+				<ul class="nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#trips">Trips</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#signup">Sign Up</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+		<main style="max-width:61em; margin-right: auto; margin-left: auto;">
+			<div class="grid fit-columns mb-4">
+				<h2 class="text-center">
+				equipment
+				</h2>
+			</div>
+			<div class="grid fit-columns">
+				<div>Food
+						We'll take care of keeping you fed every morning and night. Just bring some snacks for yourself during the day! </div>
+				<div>Clothing
+						We'll send out a list of suggested clothes to bring for each specific trip and season once you register. In addition, we have plenty of gearheads among us and are happy to work with you if you're unsure if you should use some things you have or buy some new. </div>
+				<div>Rentals
+						If you need to rent any camping gear like a backpack or tent just let us know. </div>
+			</div>
+
+		</main>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
